@@ -9,8 +9,18 @@ while(i<10 || f>0){
 i++;
 f--;
 }*/
-let i=0
+/*let i=0
 do{
     i++;
     document.writeln(i);
-}while(i<10);
+}while(i<10);*/
+let num=prompt('Ingrese el número deseado')
+let suma=0
+if(num<0){
+    document.writeln('No se permiten números negativos')
+}
+/*do{
+document.writeln(num)
+suma+=num
+num=num--
+}while()*/
